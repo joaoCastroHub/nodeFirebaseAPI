@@ -1,0 +1,27 @@
+{
+  "name": "oficina",
+  "version": "1.0.0",
+  "description": "uma platarforma para organizacao de tarefas.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oficina",
+    "organizador",
+    "tarefas"
+  ],
+  "author": "joaocastro",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "consign": "^0.1.6",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "express-session": "^1.15.6",
+    "firebase": "^4.8.1",
+    "firebase-admin": "^5.3.0"
+  }
+}
